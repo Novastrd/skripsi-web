@@ -22,8 +22,7 @@
                 <div class="col-sm-12">
                     <div class="card mb-0">
                         <div class="card-header">
-                            <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal"
-                                data-bs-target="#addPetaniModal">
+                            <button type="button" class="btn btn-primary mb-3" onclick="showAddPetaniModal()">
                                 Tambah
                             </button>
                         </div>

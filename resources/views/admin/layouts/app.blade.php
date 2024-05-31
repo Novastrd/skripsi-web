@@ -378,12 +378,16 @@
                 $('#deleteConfirmationModal button.btn-danger').attr('onclick', 'deletePetani(' + petaniId + ')');
             });
         }
-
+    
         function deletePetani(petaniId) {
             $('#deleteForm' + petaniId).submit();
         }
+    
+        function showAddPetaniModal() {
+            $('#addPetaniModal').modal('show');
+        }
     </script>
-
+    
     <!-- Slimscroll JS -->
     <script src="{{ asset('template/admin/js/jquery.slimscroll.min.js') }}"></script>
 
